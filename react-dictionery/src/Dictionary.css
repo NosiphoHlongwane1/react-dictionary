@@ -1,0 +1,91 @@
+.Dictionary section {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px 20px 10px 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+i {
+  width: 3%;
+  background-color: #72dbb3;
+  padding: 13.5px 14px 14px 13px;
+  z-index: 0;
+  position: relative;
+  border-radius: 50px 0px 0px 50px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.Dictionary h1 {
+  text-align: center;
+  font-size: 40px;
+  padding: 30px 20px 0 20px;
+}
+
+.Dictionary form {
+  padding: 30px 30px 0 40px;
+}
+
+.Dictionary input {
+  width: 90%;
+  border-radius: 0px 50px 50px 0px;
+  padding: 10px;
+  background-color: #489c80;
+  font-weight: bold;
+  border: none;
+  z-index: 1;
+  font-size: 15px;
+}
+.suggestions {
+  padding: 5px 30px 10px 60px;
+  font-size: 11px;
+  color: #4d836c;
+}
+
+.Dictionary input:focus {
+  outline: none;
+}
+
+.Dictionary input[type='search']::-webkit-search-cancel-button {
+  filter: invert(50%); /* Adjust to change color */
+}
+
+@media screen and (max-width: 522px) {
+  /* Styles for iPhones (e.g., iPhone 14, 13, 12, SE, etc.) */
+  i {
+    margin-left: 10px;
+    padding: 6px 10px 6px 10px;
+    font-size: 13px;
+  }
+
+  .Dictionary input {
+    width: 85%;
+    padding: 2px 15px 1.5px 10px;
+    font-size: 13px;
+  }
+  .suggestions {
+    font-size: 7px;
+    padding: 5px 20px;
+  }
+  .Dictionary form {
+    padding: 0;
+  }
+  .Dictionary h1 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+  .Dictionary section {
+    padding: 70px 20px 100px 20px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+  .Dictionary form {
+    padding: 30px 30px 0 70px;
+  }
+  .suggestions {
+    padding: 5px 30px 10px 90px;
+  }
+}

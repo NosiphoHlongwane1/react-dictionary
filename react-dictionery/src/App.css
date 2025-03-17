@@ -1,0 +1,52 @@
+body {
+  background-color: #275a47;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+.App main {
+  background-color: #58ceb4;
+  padding: 10px 30px;
+  max-width: 960px;
+  border-radius: 8px;
+  margin: 0 auto;
+}
+.App-header {
+  margin: 30px 0;
+}
+.App-logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+.App-footer {
+  text-align: center;
+  font-size: 10px;
+  margin: 10px;
+}
+.App a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+.App a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 430px) {
+  .App main {
+    background-color: transparent;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .App-logo {
+    width: 150px;
+    padding: 50px 0 30px 0;
+  }
+  .App-header {
+    margin: 20px 0 0 0;
+  }
+  .App-footer {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,14 @@
+.Results h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.Results h5 {
+   text-align: center;
+    color: #696c6c;
+}
+@media screen and (max-width: 430px) {
+    .Results h2{
+        font-size: 30px;
+    }
+}
